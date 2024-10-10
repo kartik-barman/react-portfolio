@@ -71,6 +71,16 @@
     margin-top: 10px;
 }
 
+@media only screen and (max-width: 576px) {
+    
+    .services-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .services-card h3{
+        font-size: 18px;
+     }
+}
 
 
 @media (max-width : 768px){

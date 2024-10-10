@@ -75,7 +75,7 @@
     margin-bottom: 50px;
 }
 
-@media (max-width : 768px){
+@media only screen and (max-width : 576px){
     .footer{
         margin: 50px 70px;
     }
@@ -83,17 +83,20 @@
         margin-left: 0px;
     }
     .logo img{
-        width: 130px;
+        width: 100px;
         margin-left: 30px;
     }
     .footer-top{
         flex-direction: column;
         gap: 50px;
     }
+    .footer-top-right {
+        flex-direction: column;
+    }
     .footer-email-input{
-        gap: 20px;
-        padding: 15px 20px;
-        padding-right: 50px;
+        gap: 10px;
+        padding: 15px 10px;
+        padding-right: 5px;
     }
     .footer-bottom{
         flex-direction: column-reverse;

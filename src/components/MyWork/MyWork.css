@@ -55,6 +55,21 @@
   transition: 0.6s;
 }
 
+@media only screen and (max-width : 576px){
+    .myWork-title h1{
+        padding: 0px 10px;
+        font-size: 30px;
+    }
+    .myWork-title img{
+       width: 100px;
+
+    }
+    .myWork-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (max-width : 768px) {
     .myWork{
         gap: 50px;
@@ -62,7 +77,7 @@
         margin: 50px 70px;
     }
     .myWork-title h1{
-        font-size: 50px;
+        font-size: 35px;
     }
     .myWork-title img{
         width: 150px;
