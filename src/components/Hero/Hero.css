@@ -53,3 +53,23 @@
 .hero-resume:hover{
     border-color: #b415ff;
 }
+
+@media only screen and (max-width: 576px) {
+    .hero h1{
+      font-size: 30px;
+    }
+    .hero p{
+      font-size: 18px;
+      line-height: 32px;
+    }
+    .hero-action {
+        gap: 15px;
+    }
+    .hero-connect{
+        padding: 10px 20px;
+    }
+    .hero-resume{
+        padding: 15px 40px;
+    }
+    
+}
